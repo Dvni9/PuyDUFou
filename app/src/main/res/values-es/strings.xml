@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Puy du Fou Experience</string>
+    <string name="welcome">¡Bienvenido a Puy du Fou!</string>
+    <string name="login">Acceder</string>
+    <string name="shows">Espectáculos</string>
+    <string name="map">Mapa</string>
+    <string name="favorites">Favoritos</string>
+    <string name="settings">Ajustes</string>
+</resources>

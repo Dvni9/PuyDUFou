@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajustes"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Idioma"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/buttonLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Español / English"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notificaciones"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchNotifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activar notificaciones"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tema"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/buttonTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Claro / Oscuro"
+        android:layout_marginBottom="24dp"/>
+
+</LinearLayout>
